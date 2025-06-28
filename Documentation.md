@@ -3,6 +3,7 @@
 ## Group Members 
 - 136242 - Claire Muthoni 
 - 148905 - Estifanos Gebremedhin
+- 138018 - Nelson Muyodi
 
 - 151363 - Hadassah Jimgun
 ## Things I have learned from Github
@@ -15,6 +16,11 @@ I learnt the workflow of tasks in a GitHub project including how to create a mil
 
 
 ### Member 3
+=======
+### 138018 Nelson Muyodi
+Git branches
+Resolving commits
+Branch protection rules 
 
 
 ### 151363 Hadassah Jimgun 
