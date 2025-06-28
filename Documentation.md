@@ -14,7 +14,7 @@ I learnt the workflow of tasks in a GitHub project including how to create a mil
 
 
 ### 151363 Hadassah Jimgun 
-So far i have mastered core Git workflows syncing with git pull, hopping between branches using git checkout and spinning up feature and fix to isolate my work. I have also understood how to setup a milestone and issues in order to get organized and I cn spot and resolve merge conflicts.
+So far i have mastered core Git workflows syncing with git pull, hopping between branches using git checkout and spinning up feature and fix to isolate my work. I have also understood how to setup a milestone and issues in order to get organized and I cn spot and resolve merge conflictts.
 
 ### Member 4 
 
