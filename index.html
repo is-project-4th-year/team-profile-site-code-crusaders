@@ -1,44 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f4f4f4;
-    }
-    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 40px;
       color: #333;
     }
-    .member {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
     }
-      .avatar {
-      max-width: 100px;
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .member {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+    }
+
+    .member img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .member h2 {
+      margin-top: 0;
+      font-size: 1.4em;
+      color: #1a1a1a;
+    }
+
+    .member p {
+      margin: 8px 0;
+      font-size: 0.95em;
+    }
+
+    .member p strong {
+      color: #0077cc;
     }
   </style>
 </head>
 <body>
-  <h1>Our Team</h1>
 
-  <!-- 👇 Each student adds their member block here -->
-  <!-- Example:
-  <div class="member">
-    <h2>Student Name</h2>
-    <p><strong>GitHub:</strong> @username</p>
-    <p><strong>Favorite Tech:</strong> JavaScript</p>
-    <p><strong>Fun Fact:</strong> I love cats!</p>
+  <h1>Meet Our Team</h1>
+
+  <div class="team-container">
+    <!-- Claire -->
+    <div class="member">
+      <h2>Claire Muthoni</h2>
+      <p><strong>GitHub:</strong> @clairemuthoni</p>
+      <p><strong>Favorite Tech:</strong> Python</p>
+      <p><strong>Fun Fact:</strong> I'm a recreational runner!</p>
+      <p>I love cows! They give us milk, yogurt, cheese, and they're so cute!</p>
+      <img src="src/claire.png" alt="Cow">
+    </div>
+
+    <!-- Estifanos -->
+    <div class="member">
+      <h2>Estifanos Solomon Gebremedhin</h2>
+      <p><strong>GitHub:</strong> @estif34</p>
+      <p><strong>Favorite Tech:</strong> Laravel</p>
+      <p><strong>Fun Fact:</strong> I love Tennis!</p>
+      <p>I like giraffes because we can both reach high places.</p>
+      <img src="img/giraffe.png" alt="Giraffe">
+    </div>
+
+    <!-- Nelson -->
+    <div class="member">
+      <h2>Nelson Masbayi</h2>
+      <p><strong>GitHub:</strong> @nelsonmasbayi</p>
+      <p><strong>Favorite Tech:</strong> Python & Web Development</p>
+      <p><strong>Fun Fact:</strong> I enjoy solving complex problems and building innovative solutions!</p>
+      <p>I like bisons because they’re like furry tanks with social anxiety.</p>
+      <img src="img/bison.png" alt="Bison">
+    </div>
+
+    <!-- Hadassah -->
+    <div class="member">
+      <h2>Hadassah Jimgun</h2>
+      <p><strong>GitHub:</strong> @Hadassah_J</p>
+      <p><strong>Favorite Tech:</strong> JavaScript</p>
+      <p><strong>Fun Fact:</strong> I love dogs and bunnies.</p>
+      <p>I chose a bunny because it’s cute and fluffy!</p>
+      <img src="img/Bunny.png" alt="Bunny">
+    </div>
+
+    <!-- Ajani -->
+    <div class="member">
+      <h2>Ajani Ayiera</h2>
+      <p><strong>GitHub:</strong> @AJAyiera</p>
+      <p><strong>Favorite Tech:</strong> Python</p>
+      <p><strong>Fun Fact:</strong> Time flies like an arrow, fruit flies like a banana.</p>
+      <p>I like gorillas because they’re strong, dependable, and protective.</p>
+      <img src="images/gorrirraxD.jpeg" alt="Gorilla">
+    </div>
   </div>
-  -->
-  
 
 </body>
 </html>
-    
